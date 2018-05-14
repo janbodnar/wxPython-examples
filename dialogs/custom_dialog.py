@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'''
+"""
 ZetCode wxPython tutorial
 
 In this code example, we create a
@@ -10,7 +10,7 @@ custom dialog.
 author: Jan Bodnar
 website: www.zetcode.com
 last modified: April 2018
-'''
+"""
 
 import wx
 

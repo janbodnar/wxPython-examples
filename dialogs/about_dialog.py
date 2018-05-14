@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-'''
+"""
 ZetCode wxPython tutorial
 
 In this example, we create an
@@ -10,7 +10,7 @@ about dialog box.
 author: Jan Bodnar
 website: www.zetcode.com
 last modified: April 2018
-'''
+"""
 
 import wx
 import wx.adv
