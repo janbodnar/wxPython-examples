@@ -14,30 +14,6 @@ last modified: May 2018
 import wx
 import wx.html
 
-# page = '<html><body bgcolor="#8e8e95"><table cellspacing="5" border="0" width="250"> \
-# <tr width="200" align="left"> \
-# <td bgcolor="#e7e7e7">&nbsp;&nbsp;Maximum</td> \
-# <td bgcolor="#aaaaaa">&nbsp;&nbsp;<b>9000</b></td> \
-# </tr> \
-# <tr align="left"> \
-# <td bgcolor="#e7e7e7">&nbsp;&nbsp;Mean</td> \
-# <td bgcolor="#aaaaaa">&nbsp;&nbsp;<b>6076</b></td> \
-# </tr> \
-# <tr align="left"> \
-# <td bgcolor="#e7e7e7">&nbsp;&nbsp;Minimum</td> \
-# <td bgcolor="#aaaaaa">&nbsp;&nbsp;<b>3800</b></td> \
-# </tr> \
-# <tr align="left"> \
-# <td bgcolor="#e7e7e7">&nbsp;&nbsp;Median</td> \
-# <td bgcolor="#aaaaaa">&nbsp;&nbsp;<b>6000</b></td> \
-# </tr> \
-# <tr align="left"> \
-# <td bgcolor="#e7e7e7">&nbsp;&nbsp;Standard Deviation</td> \
-# <td bgcolor="#aaaaaa">&nbsp;&nbsp;<b>6076</b></td> \
-# </tr> \
-# </body></table></html>'
-
-
 class Example(wx.Frame):
 
     def __init__(self, *args, **kw):
@@ -53,7 +29,6 @@ class Example(wx.Frame):
         hbox = wx.BoxSizer(wx.HORIZONTAL)
 
         htmlwin = wx.html.HtmlWindow(panel, wx.ID_ANY, style=wx.NO_BORDER)
-        # htmlwin.SetBackgroundColour(wx.RED)
         htmlwin.SetStandardFonts()
         htmlwin.LoadPage("page.html")
 
