@@ -31,20 +31,22 @@ class FileDrop(wx.FileDropTarget):
 
             except IOError as error:
 
-                dlg = wx.MessageDialog(None, 'Error opening file\n' + str(error))
+                msg = "Error opening file\n {}".format(str(error))
+                dlg = wx.MessageDialog(None, msg)
                 dlg.ShowModal()
 
                 return False
 
             except UnicodeDecodeError as error:
 
-                dlg = wx.MessageDialog(None, 'Cannot open non ascii files\n' + str(error))
+                msg = "Cannot open non ascii files\n {}".format(str(error))
+                dlg = wx.MessageDialog(None, msg)
                 dlg.ShowModal()
 
                 return False
 
             finally:
-                print("I am here")
+
                 file.close()
 
         return True
