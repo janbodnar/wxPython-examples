@@ -4,7 +4,7 @@
 """
 ZetCode wxPython tutorial
 
-In this example, we create a helpWin window
+In this example, we create a help window window
 with wx.html.HtmlWindow.
 
 author: Jan Bodnar
