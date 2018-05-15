@@ -4,7 +4,7 @@
 """
 ZetCode wxPython tutorial
 
-In this example, we create a wx.ListBox widget.
+In this example, we create a check list control widget.
 
 author: Jan Bodnar
 website: www.zetcode.com
