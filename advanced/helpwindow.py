@@ -51,8 +51,8 @@ class Example(wx.Frame):
 
         closeBtn = wx.BitmapButton(header, wx.ID_ANY, wx.Bitmap('closebutton.png',
               wx.BITMAP_TYPE_PNG), style=wx.NO_BORDER)
-
         closeBtn.SetBackgroundColour('#6f6a59')
+
         hbox.Add(closeBtn, 0, wx.TOP|wx.BOTTOM, 8)
         header.SetSizer(hbox)
 
