@@ -9,7 +9,7 @@ waiting effect in cairo.
 
 author: Jan Bodnar
 website: zetcode.com
-last edited: May 2012
+last edited: May 2018
 '''
 
 import wx
