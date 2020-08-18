@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
 
 '''
 ZetCode Advanced wxPython tutorial
