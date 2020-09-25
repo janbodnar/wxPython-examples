@@ -22,7 +22,7 @@ class Example(wx.Frame):
     def InitUI(self):
 
         pnl = wx.Panel(self)
-        grid = wx.GridSizer(3, 2)
+        grid = wx.GridSizer(3, 2, 1, 1)
 
         grid.AddMany([(wx.Button(pnl, wx.ID_CANCEL), 0, wx.TOP | wx.LEFT, 9),
             (wx.Button(pnl, wx.ID_DELETE), 0, wx.TOP, 9),
