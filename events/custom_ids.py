@@ -12,9 +12,9 @@ last modified: April 2018
 
 import wx
 
-ID_MENU_NEW = wx.NewId()
-ID_MENU_OPEN = wx.NewId()
-ID_MENU_SAVE = wx.NewId()
+ID_MENU_NEW  = wx.NewIdRef()
+ID_MENU_OPEN = wx.NewIdRef()
+ID_MENU_SAVE = wx.NewIdRef()
 
 
 class Example(wx.Frame):
